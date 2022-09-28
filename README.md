@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve -o --live-reload=false` for a dev server. Remember that `--live-reaload=false` flag is needed otherwise host will reload when trying to load remote module and it will go back to previous page.Navigate to `https://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
