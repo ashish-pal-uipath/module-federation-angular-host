@@ -1,6 +1,7 @@
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 
 module.exports = config => {
+    config.optimization.runtimeChunk = false; // required for MF to work
     config.plugins.push(
         new ModuleFederationPlugin({
             name: "angular-host",
